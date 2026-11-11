@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Supplied challenge data and locally generated row-level results
+Cases Data.xlsx
+aviation-dashboard/benchmark-results.json
+aviation-dashboard/dist/data.js
+aviation-dashboard/dist/results.json
+aviation-dashboard/dist/final-data.js
+aviation-dashboard/dist/final-results.json
+
+# Local standalone build embeds the supplied records and model outputs
+aviation-dashboard/AeroScope.local.html
